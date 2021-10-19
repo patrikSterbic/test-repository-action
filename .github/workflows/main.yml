@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: patrikSterbic/test-repository-action@v1
+        uses: patrikSterbic/test-repository-action
         with:
           who-to-greet: 'Patrik the Ostravak'
       - name: Get the output time
